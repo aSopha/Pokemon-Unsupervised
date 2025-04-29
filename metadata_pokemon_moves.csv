@@ -1,0 +1,809 @@
+name,id,accuracy,pp,power,priority,type,generation,short_descripton,damage_class
+Pound,1,100.0,35,40.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Karate Chop,2,100.0,25,50.0,0,Fighting,Generation I,Has an increased chance for a critical hit.,Physical
+Double Slap,3,85.0,10,15.0,0,Normal,Generation I,Hits 2-5 times in one turn.,Physical
+Comet Punch,4,85.0,15,18.0,0,Normal,Generation I,Hits 2-5 times in one turn.,Physical
+Mega Punch,5,85.0,20,80.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Pay Day,6,100.0,20,40.0,0,Normal,Generation I,Scatters money on the ground worth five times the user's level.,Physical
+Fire Punch,7,100.0,15,75.0,0,Fire,Generation I,Has a $effect_chance% chance to burn the target.,Physical
+Ice Punch,8,100.0,15,75.0,0,Ice,Generation I,Has a $effect_chance% chance to freeze the target.,Physical
+Thunder Punch,9,100.0,15,75.0,0,Electric,Generation I,Has a $effect_chance% chance to paralyze the target.,Physical
+Scratch,10,100.0,35,40.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Vice Grip,11,100.0,30,55.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Guillotine,12,30.0,5,,0,Normal,Generation I,Causes a one-hit KO.,Physical
+Razor Wind,13,100.0,10,80.0,0,Normal,Generation I,Requires a turn to charge before attacking.,Special
+Swords Dance,14,,20,,0,Normal,Generation I,Raises the user's Attack by two stages.,Status
+Cut,15,95.0,30,50.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Gust,16,100.0,35,40.0,0,Flying,Generation I,Inflicts regular damage and can hit Pokémon in the air.,Special
+Wing Attack,17,100.0,35,60.0,0,Flying,Generation I,Inflicts regular damage with no additional effect.,Physical
+Whirlwind,18,,20,,-6,Normal,Generation I,Immediately ends wild battles.  Forces trainers to switch Pokémon.,Status
+Fly,19,95.0,15,90.0,0,Flying,Generation I,"User flies high into the air, dodging all attacks, and hits next turn.",Physical
+Bind,20,85.0,20,15.0,0,Normal,Generation I,Prevents the target from fleeing and inflicts damage for 2-5 turns.,Physical
+Slam,21,75.0,20,80.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Vine Whip,22,100.0,25,45.0,0,Grass,Generation I,Inflicts regular damage with no additional effect.,Physical
+Stomp,23,100.0,20,65.0,0,Normal,Generation I,Has a $effect_chance% chance to make the target flinch.,Physical
+Double Kick,24,100.0,30,30.0,0,Fighting,Generation I,Hits twice in one turn.,Physical
+Mega Kick,25,75.0,5,120.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Jump Kick,26,95.0,10,100.0,0,Fighting,Generation I,"If the user misses, it takes half the damage it would have inflicted in recoil.",Physical
+Rolling Kick,27,85.0,15,60.0,0,Fighting,Generation I,Has a $effect_chance% chance to make the target flinch.,Physical
+Sand Attack,28,100.0,15,,0,Ground,Generation I,Lowers the target's accuracy by one stage.,Status
+Headbutt,29,100.0,15,70.0,0,Normal,Generation I,Has a $effect_chance% chance to make the target flinch.,Physical
+Horn Attack,30,100.0,25,65.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Fury Attack,31,85.0,20,15.0,0,Normal,Generation I,Hits 2-5 times in one turn.,Physical
+Horn Drill,32,30.0,5,,0,Normal,Generation I,Causes a one-hit KO.,Physical
+Tackle,33,100.0,35,40.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Body Slam,34,100.0,15,85.0,0,Normal,Generation I,Has a $effect_chance% chance to paralyze the target.,Physical
+Wrap,35,90.0,20,15.0,0,Normal,Generation I,Prevents the target from fleeing and inflicts damage for 2-5 turns.,Physical
+Take Down,36,85.0,20,90.0,0,Normal,Generation I,User receives 1/4 the damage it inflicts in recoil.,Physical
+Thrash,37,100.0,10,120.0,0,Normal,Generation I,"Hits every turn for 2-3 turns, then confuses the user.",Physical
+Double Edge,38,100.0,15,120.0,0,Normal,Generation I,User receives 1/3 the damage inflicted in recoil.,Physical
+Tail Whip,39,100.0,30,,0,Normal,Generation I,Lowers the target's Defense by one stage.,Status
+Poison Sting,40,100.0,35,15.0,0,Poison,Generation I,Has a $effect_chance% chance to poison the target.,Physical
+Twineedle,41,100.0,20,25.0,0,Bug,Generation I,Hits twice in the same turn.  Has a $effect_chance% chance to poison the target.,Physical
+Pin Missile,42,95.0,20,25.0,0,Bug,Generation I,Hits 2-5 times in one turn.,Physical
+Leer,43,100.0,30,,0,Normal,Generation I,Lowers the target's Defense by one stage.,Status
+Bite,44,100.0,25,60.0,0,Dark,Generation I,Has a $effect_chance% chance to make the target flinch.,Physical
+Growl,45,100.0,40,,0,Normal,Generation I,Lowers the target's Attack by one stage.,Status
+Roar,46,,20,,-6,Normal,Generation I,Immediately ends wild battles.  Forces trainers to switch Pokémon.,Status
+Sing,47,55.0,15,,0,Normal,Generation I,Puts the target to sleep.,Status
+Supersonic,48,55.0,20,,0,Normal,Generation I,Confuses the target.,Status
+Sonic Boom,49,90.0,20,,0,Normal,Generation I,Inflicts 20 points of damage.,Special
+Disable,50,100.0,20,,0,Normal,Generation I,Disables the target's last used move for 1-8 turns.,Status
+Acid,51,100.0,30,40.0,0,Poison,Generation I,Has a $effect_chance% chance to lower the target's Special Defense by one stage.,Special
+Ember,52,100.0,25,40.0,0,Fire,Generation I,Has a $effect_chance% chance to burn the target.,Special
+Flamethrower,53,100.0,15,90.0,0,Fire,Generation I,Has a $effect_chance% chance to burn the target.,Special
+Mist,54,,30,,0,Ice,Generation I,Protects the user's stats from being changed by enemy moves.,Status
+Water Gun,55,100.0,25,40.0,0,Water,Generation I,Inflicts regular damage with no additional effect.,Special
+Hydro Pump,56,80.0,5,110.0,0,Water,Generation I,Inflicts regular damage with no additional effect.,Special
+Surf,57,100.0,15,90.0,0,Water,Generation I,Inflicts regular damage and can hit Dive users.,Special
+Ice Beam,58,100.0,10,90.0,0,Ice,Generation I,Has a $effect_chance% chance to freeze the target.,Special
+Blizzard,59,70.0,5,110.0,0,Ice,Generation I,Has a $effect_chance% chance to freeze the target.,Special
+Psybeam,60,100.0,20,65.0,0,Psychic,Generation I,Has a $effect_chance% chance to confuse the target.,Special
+Bubble Beam,61,100.0,20,65.0,0,Water,Generation I,Has a $effect_chance% chance to lower the target's Speed by one stage.,Special
+Aurora Beam,62,100.0,20,65.0,0,Ice,Generation I,Has a $effect_chance% chance to lower the target's Attack by one stage.,Special
+Hyper Beam,63,90.0,5,150.0,0,Normal,Generation I,User foregoes its next turn to recharge.,Special
+Peck,64,100.0,35,35.0,0,Flying,Generation I,Inflicts regular damage with no additional effect.,Physical
+Drill Peck,65,100.0,20,80.0,0,Flying,Generation I,Inflicts regular damage with no additional effect.,Physical
+Submission,66,80.0,20,80.0,0,Fighting,Generation I,User receives 1/4 the damage it inflicts in recoil.,Physical
+Low Kick,67,100.0,20,,0,Fighting,Generation I,"Inflicts more damage to heavier targets, with a maximum of 120 power.",Physical
+Counter,68,100.0,20,,-5,Fighting,Generation I,Inflicts twice the damage the user received from the last physical hit it took.,Physical
+Seismic Toss,69,100.0,20,,0,Fighting,Generation I,Inflicts damage equal to the user's level.,Physical
+Strength,70,100.0,15,80.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Absorb,71,100.0,25,20.0,0,Grass,Generation I,Drains half the damage inflicted to heal the user.,Special
+Mega Drain,72,100.0,15,40.0,0,Grass,Generation I,Drains half the damage inflicted to heal the user.,Special
+Leech Seed,73,90.0,10,,0,Grass,Generation I,"Seeds the target, stealing HP from it every turn.",Status
+Growth,74,,20,,0,Normal,Generation I,Raises the user's Attack and Special Attack by one stage.,Status
+Razor Leaf,75,95.0,25,55.0,0,Grass,Generation I,Has an increased chance for a critical hit.,Physical
+Solar Beam,76,100.0,10,120.0,0,Grass,Generation I,Requires a turn to charge before attacking.,Special
+Poison Powder,77,75.0,35,,0,Poison,Generation I,Poisons the target.,Status
+Stun Spore,78,75.0,30,,0,Grass,Generation I,Paralyzes the target.,Status
+Sleep Powder,79,75.0,15,,0,Grass,Generation I,Puts the target to sleep.,Status
+Petal Dance,80,100.0,10,120.0,0,Grass,Generation I,"Hits every turn for 2-3 turns, then confuses the user.",Special
+String Shot,81,95.0,40,,0,Bug,Generation I,Lowers the target's Speed by two stages.,Status
+Dragon Rage,82,100.0,10,,0,Dragon,Generation I,Inflicts 40 points of damage.,Special
+Fire Spin,83,85.0,15,35.0,0,Fire,Generation I,Prevents the target from fleeing and inflicts damage for 2-5 turns.,Special
+Thunder Shock,84,100.0,30,40.0,0,Electric,Generation I,Has a $effect_chance% chance to paralyze the target.,Special
+Thunderbolt,85,100.0,15,90.0,0,Electric,Generation I,Has a $effect_chance% chance to paralyze the target.,Special
+Thunder Wave,86,90.0,20,,0,Electric,Generation I,Paralyzes the target.,Status
+Thunder,87,70.0,10,110.0,0,Electric,Generation I,Has a $effect_chance% chance to paralyze the target.,Special
+Rock Throw,88,90.0,15,50.0,0,Rock,Generation I,Inflicts regular damage with no additional effect.,Physical
+Earthquake,89,100.0,10,100.0,0,Ground,Generation I,Inflicts regular damage and can hit Dig users.,Physical
+Fissure,90,30.0,5,,0,Ground,Generation I,Causes a one-hit KO.,Physical
+Dig,91,100.0,10,80.0,0,Ground,Generation I,"User digs underground, dodging all attacks, and hits next turn.",Physical
+Toxic,92,90.0,10,,0,Poison,Generation I,"Badly poisons the target, inflicting more damage every turn.",Status
+Confusion,93,100.0,25,50.0,0,Psychic,Generation I,Has a $effect_chance% chance to confuse the target.,Special
+Psychic,94,100.0,10,90.0,0,Psychic,Generation I,Has a $effect_chance% chance to lower the target's Special Defense by one stage.,Special
+Hypnosis,95,60.0,20,,0,Psychic,Generation I,Puts the target to sleep.,Status
+Meditate,96,,40,,0,Psychic,Generation I,Raises the user's Attack by one stage.,Status
+Agility,97,,30,,0,Psychic,Generation I,Raises the user's Speed by two stages.,Status
+Quick Attack,98,100.0,30,40.0,1,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Rage,99,100.0,20,20.0,0,Normal,Generation I,"If the user is hit after using this move, its Attack rises by one stage.",Physical
+Teleport,100,,20,,-6,Psychic,Generation I,Immediately ends wild battles.  No effect otherwise.,Status
+Night Shade,101,100.0,15,,0,Ghost,Generation I,Inflicts damage equal to the user's level.,Special
+Mimic,102,,10,,0,Normal,Generation I,Copies the target's last used move.,Status
+Screech,103,85.0,40,,0,Normal,Generation I,Lowers the target's Defense by two stages.,Status
+Double Team,104,,15,,0,Normal,Generation I,Raises the user's evasion by one stage.,Status
+Recover,105,,10,,0,Normal,Generation I,Heals the user by half its max HP.,Status
+Harden,106,,30,,0,Normal,Generation I,Raises the user's Defense by one stage.,Status
+Minimize,107,,10,,0,Normal,Generation I,Raises the user's evasion by two stages.,Status
+Smokescreen,108,100.0,20,,0,Normal,Generation I,Lowers the target's accuracy by one stage.,Status
+Confuse Ray,109,100.0,10,,0,Ghost,Generation I,Confuses the target.,Status
+Withdraw,110,,40,,0,Water,Generation I,Raises the user's Defense by one stage.,Status
+Defense Curl,111,,40,,0,Normal,Generation I,Raises user's Defense by one stage.,Status
+Barrier,112,,20,,0,Psychic,Generation I,Raises the user's Defense by two stages.,Status
+Light Screen,113,,30,,0,Psychic,Generation I,Reduces damage from special attacks by 50% for five turns.,Status
+Haze,114,,30,,0,Ice,Generation I,"Resets all Pokémon's stats, accuracy, and evasion.",Status
+Reflect,115,,20,,0,Psychic,Generation I,Reduces damage from physical attacks by half.,Status
+Focus Energy,116,,30,,0,Normal,Generation I,Increases the user's chance to score a critical hit.,Status
+Bide,117,,10,,1,Normal,Generation I,"User waits for two turns, then hits back for twice the damage it took.",Physical
+Metronome,118,,10,,0,Normal,Generation I,Randomly selects and uses any move in the game.,Status
+Mirror Move,119,,20,,0,Flying,Generation I,Uses the target's last used move.,Status
+Self Destruct,120,100.0,5,200.0,0,Normal,Generation I,User faints.,Physical
+Egg Bomb,121,75.0,10,100.0,0,Normal,Generation I,Inflicts regular damage with no additional effect.,Physical
+Lick,122,100.0,30,30.0,0,Ghost,Generation I,Has a $effect_chance% chance to paralyze the target.,Physical
+Smog,123,70.0,20,30.0,0,Poison,Generation I,Has a $effect_chance% chance to poison the target.,Special
+Sludge,124,100.0,20,65.0,0,Poison,Generation I,Has a $effect_chance% chance to poison the target.,Special
+Bone Club,125,85.0,20,65.0,0,Ground,Generation I,Has a $effect_chance% chance to make the target flinch.,Physical
+Fire Blast,126,85.0,5,110.0,0,Fire,Generation I,Has a $effect_chance% chance to burn the target.,Special
+Waterfall,127,100.0,15,80.0,0,Water,Generation I,Has a $effect_chance% chance to make the target flinch.,Physical
+Clamp,128,85.0,15,35.0,0,Water,Generation I,Prevents the target from fleeing and inflicts damage for 2-5 turns.,Physical
+Swift,129,,20,60.0,0,Normal,Generation I,Never misses.,Special
+Skull Bash,130,100.0,10,130.0,0,Normal,Generation I,Raises the user's Defense by one stage.  User charges for one turn before attacking.,Physical
+Spike Cannon,131,100.0,15,20.0,0,Normal,Generation I,Hits 2-5 times in one turn.,Physical
+Constrict,132,100.0,35,10.0,0,Normal,Generation I,Has a $effect_chance% chance to lower the target's Speed by one stage.,Physical
+Amnesia,133,,20,,0,Psychic,Generation I,Raises the user's Special Defense by two stages.,Status
+Kinesis,134,80.0,15,,0,Psychic,Generation I,Lowers the target's accuracy by one stage.,Status
+Soft Boiled,135,,10,,0,Normal,Generation I,Heals the user by half its max HP.,Status
+High Jump Kick,136,90.0,10,130.0,0,Fighting,Generation I,"If the user misses, it takes half the damage it would have inflicted in recoil.",Physical
+Glare,137,100.0,30,,0,Normal,Generation I,Paralyzes the target.,Status
+Dream Eater,138,100.0,15,100.0,0,Psychic,Generation I,Only works on sleeping Pokémon.  Drains half the damage inflicted to heal the user.,Special
+Poison Gas,139,90.0,40,,0,Poison,Generation I,Poisons the target.,Status
+Barrage,140,85.0,20,15.0,0,Normal,Generation I,Hits 2-5 times in one turn.,Physical
+Leech Life,141,100.0,10,80.0,0,Bug,Generation I,Drains half the damage inflicted to heal the user.,Physical
+Lovely Kiss,142,75.0,10,,0,Normal,Generation I,Puts the target to sleep.,Status
+Sky Attack,143,90.0,5,140.0,0,Flying,Generation I,User charges for one turn before attacking.  Has a $effect_chance% chance to make the target flinch.,Physical
+Transform,144,,10,,0,Normal,Generation I,User becomes a copy of the target until it leaves battle.,Status
+Bubble,145,100.0,30,40.0,0,Water,Generation I,Has a $effect_chance% chance to lower the target's Speed by one stage.,Special
+Dizzy Punch,146,100.0,10,70.0,0,Normal,Generation I,Has a $effect_chance% chance to confuse the target.,Physical
+Spore,147,100.0,15,,0,Grass,Generation I,Puts the target to sleep.,Status
+Flash,148,100.0,20,,0,Normal,Generation I,Lowers the target's accuracy by one stage.,Status
+Psywave,149,100.0,15,,0,Psychic,Generation I,Inflicts damage between 50% and 150% of the user's level.,Special
+Splash,150,,40,,0,Normal,Generation I,Does nothing.,Status
+Acid Armor,151,,20,,0,Poison,Generation I,Raises the user's Defense by two stages.,Status
+Crabhammer,152,90.0,10,100.0,0,Water,Generation I,Has an increased chance for a critical hit.,Physical
+Explosion,153,100.0,5,250.0,0,Normal,Generation I,User faints.,Physical
+Fury Swipes,154,80.0,15,18.0,0,Normal,Generation I,Hits 2-5 times in one turn.,Physical
+Bonemerang,155,90.0,10,50.0,0,Ground,Generation I,Hits twice in one turn.,Physical
+Rest,156,,10,,0,Psychic,Generation I,"User sleeps for two turns, completely healing itself.",Status
+Rock Slide,157,90.0,10,75.0,0,Rock,Generation I,Has a $effect_chance% chance to make the target flinch.,Physical
+Hyper Fang,158,90.0,15,80.0,0,Normal,Generation I,Has a $effect_chance% chance to make the target flinch.,Physical
+Sharpen,159,,30,,0,Normal,Generation I,Raises the user's Attack by one stage.,Status
+Conversion,160,,30,,0,Normal,Generation I,User's type changes to the type of one of its moves at random.,Status
+Tri Attack,161,100.0,10,80.0,0,Normal,Generation I,"Has a $effect_chance% chance to burn, freeze, or paralyze the target.",Special
+Super Fang,162,90.0,10,,0,Normal,Generation I,Inflicts damage equal to half the target's HP.,Physical
+Slash,163,100.0,20,70.0,0,Normal,Generation I,Has an increased chance for a critical hit.,Physical
+Substitute,164,,10,,0,Normal,Generation I,"Transfers 1/4 of the user's max HP into a doll, protecting the user from further damage or status changes until it breaks.",Status
+Struggle,165,,1,50.0,0,Normal,Generation I,User takes 1/4 its max HP in recoil.,Physical
+Sketch,166,,1,,0,Normal,Generation Ii,Permanently becomes the target's last used move.,Status
+Triple Kick,167,90.0,10,10.0,0,Fighting,Generation Ii,"Hits three times, increasing power by 100% with each successful hit.",Physical
+Thief,168,100.0,25,60.0,0,Dark,Generation Ii,Takes the target's item.,Physical
+Spider Web,169,,10,,0,Bug,Generation Ii,Prevents the target from leaving battle.,Status
+Mind Reader,170,,5,,0,Normal,Generation Ii,Ensures that the user's next move will hit the target.,Status
+Nightmare,171,100.0,15,,0,Ghost,Generation Ii,Target loses 1/4 its max HP every turn as long as it's asleep.,Status
+Flame Wheel,172,100.0,25,60.0,0,Fire,Generation Ii,Has a $effect_chance% chance to burn the target.  Lets frozen Pokémon thaw themselves.,Physical
+Snore,173,100.0,15,50.0,0,Normal,Generation Ii,Has a $effect_chance% chance to make the target flinch.  Only works if the user is sleeping.,Special
+Curse,174,,10,,0,Ghost,Generation Ii,Ghosts pay half their max HP to hurt the target every turn.  Others decrease Speed but raise Attack and Defense.,Status
+Flail,175,100.0,15,,0,Normal,Generation Ii,"Inflicts more damage when the user has less HP remaining, with a maximum of 200 power.",Physical
+Conversion 2,176,,30,,0,Normal,Generation Ii,Changes the user's type to a random type either resistant or immune to the last move used against it.,Status
+Aeroblast,177,95.0,5,100.0,0,Flying,Generation Ii,Has an increased chance for a critical hit.,Special
+Cotton Spore,178,100.0,40,,0,Grass,Generation Ii,Lowers the target's Speed by two stages.,Status
+Reversal,179,100.0,15,,0,Fighting,Generation Ii,"Inflicts more damage when the user has less HP remaining, with a maximum of 200 power.",Physical
+Spite,180,100.0,10,,0,Ghost,Generation Ii,Lowers the PP of the target's last used move by 4.,Status
+Powder Snow,181,100.0,25,40.0,0,Ice,Generation Ii,Has a $effect_chance% chance to freeze the target.,Special
+Protect,182,,10,,4,Normal,Generation Ii,Prevents any moves from hitting the user this turn.,Status
+Mach Punch,183,100.0,30,40.0,1,Fighting,Generation Ii,Inflicts regular damage with no additional effect.,Physical
+Scary Face,184,100.0,10,,0,Normal,Generation Ii,Lowers the target's Speed by two stages.,Status
+Feint Attack,185,,20,60.0,0,Dark,Generation Ii,Never misses.,Physical
+Sweet Kiss,186,75.0,10,,0,Fairy,Generation Ii,Confuses the target.,Status
+Belly Drum,187,,10,,0,Normal,Generation Ii,User pays half its max HP to max out its Attack.,Status
+Sludge Bomb,188,100.0,10,90.0,0,Poison,Generation Ii,Has a $effect_chance% chance to poison the target.,Special
+Mud Slap,189,100.0,10,20.0,0,Ground,Generation Ii,Has a $effect_chance% chance to lower the target's accuracy by one stage.,Special
+Octazooka,190,85.0,10,65.0,0,Water,Generation Ii,Has a $effect_chance% chance to lower the target's accuracy by one stage.,Special
+Spikes,191,,20,,0,Ground,Generation Ii,"Scatters Spikes, hurting opposing Pokémon that switch in.",Status
+Zap Cannon,192,50.0,5,120.0,0,Electric,Generation Ii,Has a $effect_chance% chance to paralyze the target.,Special
+Foresight,193,,40,,0,Normal,Generation Ii,"Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost.",Status
+Destiny Bond,194,,5,,0,Ghost,Generation Ii,"If the user faints this turn, the target automatically will, too.",Status
+Perish Song,195,,5,,0,Normal,Generation Ii,User and target both faint after three turns.,Status
+Icy Wind,196,95.0,15,55.0,0,Ice,Generation Ii,Has a $effect_chance% chance to lower the target's Speed by one stage.,Special
+Detect,197,,5,,4,Fighting,Generation Ii,Prevents any moves from hitting the user this turn.,Status
+Bone Rush,198,90.0,10,25.0,0,Ground,Generation Ii,Hits 2-5 times in one turn.,Physical
+Lock On,199,,5,,0,Normal,Generation Ii,Ensures that the user's next move will hit the target.,Status
+Outrage,200,100.0,10,120.0,0,Dragon,Generation Ii,"Hits every turn for 2-3 turns, then confuses the user.",Physical
+Sandstorm,201,,10,,0,Rock,Generation Ii,Changes the weather to a sandstorm for five turns.,Status
+Giga Drain,202,100.0,10,75.0,0,Grass,Generation Ii,Drains half the damage inflicted to heal the user.,Special
+Endure,203,,10,,4,Normal,Generation Ii,Prevents the user's HP from lowering below 1 this turn.,Status
+Charm,204,100.0,20,,0,Fairy,Generation Ii,Lowers the target's Attack by two stages.,Status
+Rollout,205,90.0,20,30.0,0,Rock,Generation Ii,"Power doubles every turn this move is used in succession after the first, resetting after five turns.",Physical
+False Swipe,206,100.0,40,40.0,0,Normal,Generation Ii,Cannot lower the target's HP below 1.,Physical
+Swagger,207,85.0,15,,0,Normal,Generation Ii,Raises the target's Attack by two stages and confuses the target.,Status
+Milk Drink,208,,10,,0,Normal,Generation Ii,Heals the user by half its max HP.,Status
+Spark,209,100.0,20,65.0,0,Electric,Generation Ii,Has a $effect_chance% chance to paralyze the target.,Physical
+Fury Cutter,210,95.0,20,40.0,0,Bug,Generation Ii,"Power doubles every turn this move is used in succession after the first, maxing out after five turns.",Physical
+Steel Wing,211,90.0,25,70.0,0,Steel,Generation Ii,Has a $effect_chance% chance to raise the user's Defense by one stage.,Physical
+Mean Look,212,,5,,0,Normal,Generation Ii,Prevents the target from leaving battle.,Status
+Attract,213,100.0,15,,0,Normal,Generation Ii,"Target falls in love if it has the opposite gender, and has a 50% chance to refuse attacking the user.",Status
+Sleep Talk,214,,10,,0,Normal,Generation Ii,Randomly uses one of the user's other three moves.  Only works if the user is sleeping.,Status
+Heal Bell,215,,5,,0,Normal,Generation Ii,Cures the entire party of major status effects.,Status
+Return,216,100.0,20,,0,Normal,Generation Ii,"Power increases with happiness, up to a maximum of 102.",Physical
+Present,217,90.0,15,,0,Normal,Generation Ii,Randomly inflicts damage with power from 40 to 120 or heals the target for 1/4 its max HP.,Physical
+Frustration,218,100.0,20,,0,Normal,Generation Ii,"Power increases as happiness decreases, up to a maximum of 102.",Physical
+Safeguard,219,,25,,0,Normal,Generation Ii,Protects the user's field from major status ailments and confusion for five turns.,Status
+Pain Split,220,,20,,0,Normal,Generation Ii,Sets the user's and targets's HP to the average of their current HP.,Status
+Sacred Fire,221,95.0,5,100.0,0,Fire,Generation Ii,Has a $effect_chance% chance to burn the target.  Lets frozen Pokémon thaw themselves.,Physical
+Magnitude,222,100.0,30,,0,Ground,Generation Ii,Power varies randomly from 10 to 150.,Physical
+Dynamic Punch,223,50.0,5,100.0,0,Fighting,Generation Ii,Has a $effect_chance% chance to confuse the target.,Physical
+Megahorn,224,85.0,10,120.0,0,Bug,Generation Ii,Inflicts regular damage with no additional effect.,Physical
+Dragon Breath,225,100.0,20,60.0,0,Dragon,Generation Ii,Has a $effect_chance% chance to paralyze the target.,Special
+Baton Pass,226,,40,,0,Normal,Generation Ii,Allows the trainer to switch out the user and pass effects along to its replacement.,Status
+Encore,227,100.0,5,,0,Normal,Generation Ii,Forces the target to repeat its last used move every turn for 2 to 6 turns.,Status
+Pursuit,228,100.0,20,40.0,0,Dark,Generation Ii,"Has double power against, and can hit, Pokémon attempting to switch out.",Physical
+Rapid Spin,229,100.0,40,50.0,0,Normal,Generation Ii,"Frees the user from binding moves, removes Leech Seed, and blows away Spikes.",Physical
+Sweet Scent,230,100.0,20,,0,Normal,Generation Ii,Lowers the target's evasion by one stage.,Status
+Iron Tail,231,75.0,15,100.0,0,Steel,Generation Ii,Has a $effect_chance% chance to lower the target's Defense by one stage.,Physical
+Metal Claw,232,95.0,35,50.0,0,Steel,Generation Ii,Has a $effect_chance% chance to raise the user's Attack by one stage.,Physical
+Vital Throw,233,,10,70.0,-1,Fighting,Generation Ii,Never misses.,Physical
+Morning Sun,234,,5,,0,Normal,Generation Ii,Heals the user by half its max HP.  Affected by weather.,Status
+Synthesis,235,,5,,0,Grass,Generation Ii,Heals the user by half its max HP.  Affected by weather.,Status
+Moonlight,236,,5,,0,Fairy,Generation Ii,Heals the user by half its max HP.  Affected by weather.,Status
+Hidden Power,237,100.0,15,60.0,0,Normal,Generation Ii,Power and type depend upon user's IVs.  Power can range from 30 to 70.,Special
+Cross Chop,238,80.0,5,100.0,0,Fighting,Generation Ii,Has an increased chance for a critical hit.,Physical
+Twister,239,100.0,20,40.0,0,Dragon,Generation Ii,Has a $effect_chance% chance to make the target flinch.,Special
+Rain Dance,240,,5,,0,Water,Generation Ii,Changes the weather to rain for five turns.,Status
+Sunny Day,241,,5,,0,Fire,Generation Ii,Changes the weather to sunny for five turns.,Status
+Crunch,242,100.0,15,80.0,0,Dark,Generation Ii,Has a $effect_chance% chance to lower the target's Defense by one stage.,Physical
+Mirror Coat,243,100.0,20,,-5,Psychic,Generation Ii,Inflicts twice the damage the user received from the last special hit it took.,Special
+Psych Up,244,,10,,0,Normal,Generation Ii,Discards the user's stat changes and copies the target's.,Status
+Extreme Speed,245,100.0,5,80.0,2,Normal,Generation Ii,Inflicts regular damage with no additional effect.,Physical
+Ancient Power,246,100.0,5,60.0,0,Rock,Generation Ii,Has a $effect_chance% chance to raise all of the user's stats by one stage.,Special
+Shadow Ball,247,100.0,15,80.0,0,Ghost,Generation Ii,Has a $effect_chance% chance to lower the target's Special Defense by one stage.,Special
+Future Sight,248,100.0,10,120.0,0,Psychic,Generation Ii,Hits the target two turns later.,Special
+Rock Smash,249,100.0,15,40.0,0,Fighting,Generation Ii,Has a $effect_chance% chance to lower the target's Defense by one stage.,Physical
+Whirlpool,250,85.0,15,35.0,0,Water,Generation Ii,Prevents the target from leaving battle and inflicts 1/16 its max HP in damage for 2-5 turns.,Special
+Beat Up,251,100.0,10,,0,Dark,Generation Ii,Hits once for every conscious Pokémon the trainer has.,Physical
+Fake Out,252,100.0,10,40.0,3,Normal,Generation Iii,Can only be used as the first move after the user enters battle.  Causes the target to flinch.,Physical
+Uproar,253,100.0,10,90.0,0,Normal,Generation Iii,Forced to use this move for several turns.  Pokémon cannot fall asleep in that time.,Special
+Stockpile,254,,20,,0,Normal,Generation Iii,Stores energy up to three times for use with Spit Up and Swallow.,Status
+Spit Up,255,100.0,10,,0,Normal,Generation Iii,Power is 100 times the amount of energy Stockpiled.,Special
+Swallow,256,,10,,0,Normal,Generation Iii,"Recovers 1/4 HP after one Stockpile, 1/2 HP after two Stockpiles, or full HP after three Stockpiles.",Status
+Heat Wave,257,90.0,10,95.0,0,Fire,Generation Iii,Has a $effect_chance% chance to burn the target.,Special
+Hail,258,,10,,0,Ice,Generation Iii,Changes the weather to a hailstorm for five turns.,Status
+Torment,259,100.0,15,,0,Dark,Generation Iii,Prevents the target from using the same move twice in a row.,Status
+Flatter,260,100.0,15,,0,Dark,Generation Iii,Raises the target's Special Attack by one stage and confuses the target.,Status
+Will O Wisp,261,85.0,15,,0,Fire,Generation Iii,Burns the target.,Status
+Memento,262,100.0,10,,0,Dark,Generation Iii,Lowers the target's Attack and Special Attack by two stages.  User faints.,Status
+Facade,263,100.0,20,70.0,0,Normal,Generation Iii,"Power doubles if user is burned, paralyzed, or poisoned.",Physical
+Focus Punch,264,100.0,20,150.0,-3,Fighting,Generation Iii,"If the user takes damage before attacking, the attack is canceled.",Physical
+Smelling Salts,265,100.0,10,70.0,0,Normal,Generation Iii,"If the target is paralyzed, inflicts double damage and cures the paralysis.",Physical
+Follow Me,266,,20,,2,Normal,Generation Iii,Redirects the target's single-target effects to the user for this turn.,Status
+Nature Power,267,,20,,0,Normal,Generation Iii,Uses a move which depends upon the terrain.,Status
+Charge,268,,20,,0,Electric,Generation Iii,Raises the user's Special Defense by one stage.  User's Electric moves have doubled power next turn.,Status
+Taunt,269,100.0,20,,0,Dark,Generation Iii,"For the next few turns, the target can only use damaging moves.",Status
+Helping Hand,270,,20,,5,Normal,Generation Iii,Ally's next move inflicts half more damage.,Status
+Trick,271,100.0,10,,0,Psychic,Generation Iii,User and target swap items.,Status
+Role Play,272,,10,,0,Psychic,Generation Iii,Copies the target's ability.,Status
+Wish,273,,10,,0,Normal,Generation Iii,User will recover half its max HP at the end of the next turn.,Status
+Assist,274,,20,,0,Normal,Generation Iii,Randomly selects and uses one of the trainer's other Pokémon's moves.,Status
+Ingrain,275,,20,,0,Grass,Generation Iii,Prevents the user from leaving battle.  User regains 1/16 of its max HP every turn.,Status
+Superpower,276,100.0,5,120.0,0,Fighting,Generation Iii,Lowers the user's Attack and Defense by one stage after inflicting damage.,Physical
+Magic Coat,277,,15,,4,Psychic,Generation Iii,Reflects back the first effect move used on the user this turn.,Status
+Recycle,278,,10,,0,Normal,Generation Iii,User recovers the item it last used up.,Status
+Revenge,279,100.0,10,60.0,-4,Fighting,Generation Iii,Inflicts double damage if the user takes damage before attacking this turn.,Physical
+Brick Break,280,100.0,15,75.0,0,Fighting,Generation Iii,Destroys Reflect and Light Screen.,Physical
+Yawn,281,,10,,0,Normal,Generation Iii,Target sleeps at the end of the next turn.,Status
+Knock Off,282,100.0,20,65.0,0,Dark,Generation Iii,Target drops its held item.,Physical
+Endeavor,283,100.0,5,,0,Normal,Generation Iii,Lowers the target's HP to equal the user's.,Physical
+Eruption,284,100.0,5,150.0,0,Fire,Generation Iii,"Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",Special
+Skill Swap,285,,10,,0,Psychic,Generation Iii,User and target swap abilities.,Status
+Imprison,286,,10,,0,Psychic,Generation Iii,Prevents the target from using any moves that the user also knows.,Status
+Refresh,287,,20,,0,Normal,Generation Iii,"Cleanses the user of a burn, paralysis, or poison.",Status
+Grudge,288,,5,,0,Ghost,Generation Iii,"If the user faints this turn, the PP of the move that fainted it drops to 0.",Status
+Snatch,289,,10,,4,Dark,Generation Iii,"Steals the target's move, if it's self-targeted.",Status
+Secret Power,290,100.0,20,70.0,0,Normal,Generation Iii,Has a $effect_chance% chance to inflict a status effect which depends upon the terrain.,Physical
+Dive,291,100.0,10,80.0,0,Water,Generation Iii,"User dives underwater, dodging all attacks, and hits next turn.",Physical
+Arm Thrust,292,100.0,20,15.0,0,Fighting,Generation Iii,Hits 2-5 times in one turn.,Physical
+Camouflage,293,,20,,0,Normal,Generation Iii,User's type changes to match the terrain.,Status
+Tail Glow,294,,20,,0,Bug,Generation Iii,Raises the user's Special Attack by three stages.,Status
+Luster Purge,295,100.0,5,70.0,0,Psychic,Generation Iii,Has a $effect_chance% chance to lower the target's Special Defense by one stage.,Special
+Mist Ball,296,100.0,5,70.0,0,Psychic,Generation Iii,Has a $effect_chance% chance to lower the target's Special Attack by one stage.,Special
+Feather Dance,297,100.0,15,,0,Flying,Generation Iii,Lowers the target's Attack by two stages.,Status
+Teeter Dance,298,100.0,20,,0,Normal,Generation Iii,Confuses the target.,Status
+Blaze Kick,299,90.0,10,85.0,0,Fire,Generation Iii,Has an increased chance for a critical hit and a $effect_chance% chance to burn the target.,Physical
+Mud Sport,300,,15,,0,Ground,Generation Iii,Halves all Electric-type damage.,Status
+Ice Ball,301,90.0,20,30.0,0,Ice,Generation Iii,"Power doubles every turn this move is used in succession after the first, resetting after five turns.",Physical
+Needle Arm,302,100.0,15,60.0,0,Grass,Generation Iii,Has a $effect_chance% chance to make the target flinch.,Physical
+Slack Off,303,,10,,0,Normal,Generation Iii,Heals the user by half its max HP.,Status
+Hyper Voice,304,100.0,10,90.0,0,Normal,Generation Iii,Inflicts regular damage with no additional effect.,Special
+Poison Fang,305,100.0,15,50.0,0,Poison,Generation Iii,Has a $effect_chance% chance to badly poison the target.,Physical
+Crush Claw,306,95.0,10,75.0,0,Normal,Generation Iii,Has a $effect_chance% chance to lower the target's Defense by one stage.,Physical
+Blast Burn,307,90.0,5,150.0,0,Fire,Generation Iii,User foregoes its next turn to recharge.,Special
+Hydro Cannon,308,90.0,5,150.0,0,Water,Generation Iii,User foregoes its next turn to recharge.,Special
+Meteor Mash,309,90.0,10,90.0,0,Steel,Generation Iii,Has a $effect_chance% chance to raise the user's Attack by one stage.,Physical
+Astonish,310,100.0,15,30.0,0,Ghost,Generation Iii,Has a $effect_chance% chance to make the target flinch.,Physical
+Weather Ball,311,100.0,10,50.0,0,Normal,Generation Iii,"If there be weather, this move has doubled power and the weather's type.",Special
+Aromatherapy,312,,5,,0,Grass,Generation Iii,Cures the entire party of major status effects.,Status
+Fake Tears,313,100.0,20,,0,Dark,Generation Iii,Lowers the target's Special Defense by two stages.,Status
+Air Cutter,314,95.0,25,60.0,0,Flying,Generation Iii,Has an increased chance for a critical hit.,Special
+Overheat,315,90.0,5,130.0,0,Fire,Generation Iii,Lowers the user's Special Attack by two stages after inflicting damage.,Special
+Odor Sleuth,316,,40,,0,Normal,Generation Iii,"Forces the target to have no Evade, and allows it to be hit by Normal and Fighting moves even if it's a Ghost.",Status
+Rock Tomb,317,95.0,15,60.0,0,Rock,Generation Iii,Has a $effect_chance% chance to lower the target's Speed by one stage.,Physical
+Silver Wind,318,100.0,5,60.0,0,Bug,Generation Iii,Has a $effect_chance% chance to raise all of the user's stats by one stage.,Special
+Metal Sound,319,85.0,40,,0,Steel,Generation Iii,Lowers the target's Special Defense by two stages.,Status
+Grass Whistle,320,55.0,15,,0,Grass,Generation Iii,Puts the target to sleep.,Status
+Tickle,321,100.0,20,,0,Normal,Generation Iii,Lowers the target's Attack and Defense by one stage.,Status
+Cosmic Power,322,,20,,0,Psychic,Generation Iii,Raises the user's Defense and Special Defense by one stage.,Status
+Water Spout,323,100.0,5,150.0,0,Water,Generation Iii,"Inflicts more damage when the user has more HP remaining, with a maximum of 150 power.",Special
+Signal Beam,324,100.0,15,75.0,0,Bug,Generation Iii,Has a $effect_chance% chance to confuse the target.,Special
+Shadow Punch,325,,20,60.0,0,Ghost,Generation Iii,Never misses.,Physical
+Extrasensory,326,100.0,20,80.0,0,Psychic,Generation Iii,Has a $effect_chance% chance to make the target flinch.,Special
+Sky Uppercut,327,90.0,15,85.0,0,Fighting,Generation Iii,Inflicts regular damage and can hit Bounce and Fly users.,Physical
+Sand Tomb,328,85.0,15,35.0,0,Ground,Generation Iii,Prevents the target from fleeing and inflicts damage for 2-5 turns.,Physical
+Sheer Cold,329,30.0,5,,0,Ice,Generation Iii,Causes a one-hit KO.,Special
+Muddy Water,330,85.0,10,90.0,0,Water,Generation Iii,Has a $effect_chance% chance to lower the target's accuracy by one stage.,Special
+Bullet Seed,331,100.0,30,25.0,0,Grass,Generation Iii,Hits 2-5 times in one turn.,Physical
+Aerial Ace,332,,20,60.0,0,Flying,Generation Iii,Never misses.,Physical
+Icicle Spear,333,100.0,30,25.0,0,Ice,Generation Iii,Hits 2-5 times in one turn.,Physical
+Iron Defense,334,,15,,0,Steel,Generation Iii,Raises the user's Defense by two stages.,Status
+Block,335,,5,,0,Normal,Generation Iii,Prevents the target from leaving battle.,Status
+Howl,336,,40,,0,Normal,Generation Iii,Raises the user's Attack by one stage.,Status
+Dragon Claw,337,100.0,15,80.0,0,Dragon,Generation Iii,Inflicts regular damage with no additional effect.,Physical
+Frenzy Plant,338,90.0,5,150.0,0,Grass,Generation Iii,User foregoes its next turn to recharge.,Special
+Bulk Up,339,,20,,0,Fighting,Generation Iii,Raises the user's Attack and Defense by one stage.,Status
+Bounce,340,85.0,5,85.0,0,Flying,Generation Iii,"User bounces high into the air, dodging all attacks, and hits next turn.",Physical
+Mud Shot,341,95.0,15,55.0,0,Ground,Generation Iii,Has a $effect_chance% chance to lower the target's Speed by one stage.,Special
+Poison Tail,342,100.0,25,50.0,0,Poison,Generation Iii,Has an increased chance for a critical hit and a $effect_chance% chance to poison the target.,Physical
+Covet,343,100.0,25,60.0,0,Normal,Generation Iii,Takes the target's item.,Physical
+Volt Tackle,344,100.0,15,120.0,0,Electric,Generation Iii,User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to paralyze the target.,Physical
+Magical Leaf,345,,20,60.0,0,Grass,Generation Iii,Never misses.,Special
+Water Sport,346,,15,,0,Water,Generation Iii,Halves all Fire-type damage.,Status
+Calm Mind,347,,20,,0,Psychic,Generation Iii,Raises the user's Special Attack and Special Defense by one stage.,Status
+Leaf Blade,348,100.0,15,90.0,0,Grass,Generation Iii,Has an increased chance for a critical hit.,Physical
+Dragon Dance,349,,20,,0,Dragon,Generation Iii,Raises the user's Attack and Speed by one stage.,Status
+Rock Blast,350,90.0,10,25.0,0,Rock,Generation Iii,Hits 2-5 times in one turn.,Physical
+Shock Wave,351,,20,60.0,0,Electric,Generation Iii,Never misses.,Special
+Water Pulse,352,100.0,20,60.0,0,Water,Generation Iii,Has a $effect_chance% chance to confuse the target.,Special
+Doom Desire,353,100.0,5,140.0,0,Steel,Generation Iii,Hits the target two turns later.,Special
+Psycho Boost,354,90.0,5,140.0,0,Psychic,Generation Iii,Lowers the user's Special Attack by two stages after inflicting damage.,Special
+Roost,355,,10,,0,Flying,Generation Iv,Heals the user by half its max HP.,Status
+Gravity,356,,5,,0,Psychic,Generation Iv,Disables moves and immunities that involve flying or levitating for five turns.,Status
+Miracle Eye,357,,40,,0,Psychic,Generation Iv,"Forces the target to have no evasion, and allows it to be hit by Psychic moves even if it's Dark.",Status
+Wake Up Slap,358,100.0,10,70.0,0,Fighting,Generation Iv,"If the target is asleep, has double power and wakes it up.",Physical
+Hammer Arm,359,90.0,10,100.0,0,Fighting,Generation Iv,Lowers user's Speed by one stage.,Physical
+Gyro Ball,360,100.0,5,,0,Steel,Generation Iv,"Power raises when the user has lower Speed, up to a maximum of 150.",Physical
+Healing Wish,361,,10,,0,Psychic,Generation Iv,User faints.  Its replacement has its HP fully restored and any major status effect removed.,Status
+Brine,362,100.0,10,65.0,0,Water,Generation Iv,Has double power against Pokémon that have less than half their max HP remaining.,Special
+Natural Gift,363,100.0,15,,0,Normal,Generation Iv,Power and type depend on the held berry.,Physical
+Feint,364,100.0,10,30.0,2,Normal,Generation Iv,Hits through Protect and Detect.,Physical
+Pluck,365,100.0,20,60.0,0,Flying,Generation Iv,"If target has a berry, inflicts double damage and uses the berry.",Physical
+Tailwind,366,,15,,0,Flying,Generation Iv,"For three turns, friendly Pokémon have doubled Speed.",Status
+Acupressure,367,,30,,0,Normal,Generation Iv,Raises one of a friendly Pokémon's stats at random by two stages.,Status
+Metal Burst,368,100.0,10,,0,Steel,Generation Iv,Strikes back at the last Pokémon to hit the user this turn with 1.5× the damage.,Physical
+U Turn,369,100.0,20,70.0,0,Bug,Generation Iv,User must switch out after attacking.,Physical
+Close Combat,370,100.0,5,120.0,0,Fighting,Generation Iv,Lowers the user's Defense and Special Defense by one stage after inflicting damage.,Physical
+Payback,371,100.0,10,50.0,0,Dark,Generation Iv,Power is doubled if the target has already moved this turn.,Physical
+Assurance,372,100.0,10,60.0,0,Dark,Generation Iv,Power is doubled if the target has already received damage this turn.,Physical
+Embargo,373,100.0,15,,0,Dark,Generation Iv,Target cannot use held items.,Status
+Fling,374,100.0,10,,0,Dark,Generation Iv,Throws held item at the target; power depends on the item.,Physical
+Psycho Shift,375,100.0,10,,0,Psychic,Generation Iv,Transfers the user's major status effect to the target.,Status
+Trump Card,376,,5,,0,Normal,Generation Iv,"Power increases when this move has less PP, up to a maximum of 200.",Special
+Heal Block,377,100.0,15,,0,Psychic,Generation Iv,Prevents target from restoring its HP for five turns.,Status
+Wring Out,378,100.0,5,,0,Normal,Generation Iv,"Power increases against targets with more HP remaining, up to a maximum of 121 power.",Special
+Power Trick,379,,10,,0,Psychic,Generation Iv,User swaps Attack and Defense.,Status
+Gastro Acid,380,100.0,10,,0,Poison,Generation Iv,Nullifies target's ability until it leaves battle.,Status
+Lucky Chant,381,,30,,0,Normal,Generation Iv,Prevents the target from scoring critical hits for five turns.,Status
+Me First,382,,20,,0,Normal,Generation Iv,"Uses the target's move against it before it attacks, with power increased by half.",Status
+Copycat,383,,20,,0,Normal,Generation Iv,Uses the target's last used move.,Status
+Power Swap,384,,10,,0,Psychic,Generation Iv,User swaps Attack and Special Attack changes with the target.,Status
+Guard Swap,385,,10,,0,Psychic,Generation Iv,User swaps Defense and Special Defense changes with the target.,Status
+Punishment,386,100.0,5,,0,Dark,Generation Iv,"Power increases against targets with more raised stats, up to a maximum of 200.",Physical
+Last Resort,387,100.0,5,140.0,0,Normal,Generation Iv,Can only be used after all of the user's other moves have been used.,Physical
+Worry Seed,388,100.0,10,,0,Grass,Generation Iv,Changes the target's ability to Insomnia.,Status
+Sucker Punch,389,100.0,5,70.0,1,Dark,Generation Iv,Only works if the target is about to use a damaging move.,Physical
+Toxic Spikes,390,,20,,0,Poison,Generation Iv,"Scatters poisoned spikes, poisoning opposing Pokémon that switch in.",Status
+Heart Swap,391,,10,,0,Psychic,Generation Iv,User and target swap stat changes.,Status
+Aqua Ring,392,,20,,0,Water,Generation Iv,Restores 1/16 of the user's max HP each turn.,Status
+Magnet Rise,393,,10,,0,Electric,Generation Iv,User is immune to Ground moves and effects for five turns.,Status
+Flare Blitz,394,100.0,15,120.0,0,Fire,Generation Iv,User takes 1/3 the damage inflicted in recoil.  Has a $effect_chance% chance to burn the target.,Physical
+Force Palm,395,100.0,10,60.0,0,Fighting,Generation Iv,Has a $effect_chance% chance to paralyze the target.,Physical
+Aura Sphere,396,,20,80.0,0,Fighting,Generation Iv,Never misses.,Special
+Rock Polish,397,,20,,0,Rock,Generation Iv,Raises the user's Speed by two stages.,Status
+Poison Jab,398,100.0,20,80.0,0,Poison,Generation Iv,Has a $effect_chance% chance to poison the target.,Physical
+Dark Pulse,399,100.0,15,80.0,0,Dark,Generation Iv,Has a $effect_chance% chance to make the target flinch.,Special
+Night Slash,400,100.0,15,70.0,0,Dark,Generation Iv,Has an increased chance for a critical hit.,Physical
+Aqua Tail,401,90.0,10,90.0,0,Water,Generation Iv,Inflicts regular damage with no additional effect.,Physical
+Seed Bomb,402,100.0,15,80.0,0,Grass,Generation Iv,Inflicts regular damage with no additional effect.,Physical
+Air Slash,403,95.0,15,75.0,0,Flying,Generation Iv,Has a $effect_chance% chance to make the target flinch.,Special
+X Scissor,404,100.0,15,80.0,0,Bug,Generation Iv,Inflicts regular damage with no additional effect.,Physical
+Bug Buzz,405,100.0,10,90.0,0,Bug,Generation Iv,Has a $effect_chance% chance to lower the target's Special Defense by one stage.,Special
+Dragon Pulse,406,100.0,10,85.0,0,Dragon,Generation Iv,Inflicts regular damage with no additional effect.,Special
+Dragon Rush,407,75.0,10,100.0,0,Dragon,Generation Iv,Has a $effect_chance% chance to make the target flinch.,Physical
+Power Gem,408,100.0,20,80.0,0,Rock,Generation Iv,Inflicts regular damage with no additional effect.,Special
+Drain Punch,409,100.0,10,75.0,0,Fighting,Generation Iv,Drains half the damage inflicted to heal the user.,Physical
+Vacuum Wave,410,100.0,30,40.0,1,Fighting,Generation Iv,Inflicts regular damage with no additional effect.,Special
+Focus Blast,411,70.0,5,120.0,0,Fighting,Generation Iv,Has a $effect_chance% chance to lower the target's Special Defense by one stage.,Special
+Energy Ball,412,100.0,10,90.0,0,Grass,Generation Iv,Has a $effect_chance% chance to lower the target's Special Defense by one stage.,Special
+Brave Bird,413,100.0,15,120.0,0,Flying,Generation Iv,User receives 1/3 the damage inflicted in recoil.,Physical
+Earth Power,414,100.0,10,90.0,0,Ground,Generation Iv,Has a $effect_chance% chance to lower the target's Special Defense by one stage.,Special
+Switcheroo,415,100.0,10,,0,Dark,Generation Iv,User and target swap items.,Status
+Giga Impact,416,90.0,5,150.0,0,Normal,Generation Iv,User foregoes its next turn to recharge.,Physical
+Nasty Plot,417,,20,,0,Dark,Generation Iv,Raises the user's Special Attack by two stages.,Status
+Bullet Punch,418,100.0,30,40.0,1,Steel,Generation Iv,Inflicts regular damage with no additional effect.,Physical
+Avalanche,419,100.0,10,60.0,-4,Ice,Generation Iv,Inflicts double damage if the user takes damage before attacking this turn.,Physical
+Ice Shard,420,100.0,30,40.0,1,Ice,Generation Iv,Inflicts regular damage with no additional effect.,Physical
+Shadow Claw,421,100.0,15,70.0,0,Ghost,Generation Iv,Has an increased chance for a critical hit.,Physical
+Thunder Fang,422,95.0,15,65.0,0,Electric,Generation Iv,Has a $effect_chance% chance to paralyze the target and a $effect_chance% chance to make the target flinch.,Physical
+Ice Fang,423,95.0,15,65.0,0,Ice,Generation Iv,Has a $effect_chance% chance to freeze the target and a $effect_chance% chance to make the target flinch.,Physical
+Fire Fang,424,95.0,15,65.0,0,Fire,Generation Iv,Has a $effect_chance% chance to burn the target and a $effect_chance% chance to make the target flinch.,Physical
+Shadow Sneak,425,100.0,30,40.0,1,Ghost,Generation Iv,Inflicts regular damage with no additional effect.,Physical
+Mud Bomb,426,85.0,10,65.0,0,Ground,Generation Iv,Has a $effect_chance% chance to lower the target's accuracy by one stage.,Special
+Psycho Cut,427,100.0,20,70.0,0,Psychic,Generation Iv,Has an increased chance for a critical hit.,Physical
+Zen Headbutt,428,90.0,15,80.0,0,Psychic,Generation Iv,Has a $effect_chance% chance to make the target flinch.,Physical
+Mirror Shot,429,85.0,10,65.0,0,Steel,Generation Iv,Has a $effect_chance% chance to lower the target's accuracy by one stage.,Special
+Flash Cannon,430,100.0,10,80.0,0,Steel,Generation Iv,Has a $effect_chance% chance to lower the target's Special Defense by one stage.,Special
+Rock Climb,431,85.0,20,90.0,0,Normal,Generation Iv,Has a $effect_chance% chance to confuse the target.,Physical
+Defog,432,,15,,0,Flying,Generation Iv,Lowers the target's evasion by one stage.  Removes field effects from the enemy field.,Status
+Trick Room,433,,5,,-7,Psychic,Generation Iv,"For five turns, slower Pokémon will act before faster Pokémon.",Status
+Draco Meteor,434,90.0,5,130.0,0,Dragon,Generation Iv,Lowers the user's Special Attack by two stages after inflicting damage.,Special
+Discharge,435,100.0,15,80.0,0,Electric,Generation Iv,Has a $effect_chance% chance to paralyze the target.,Special
+Lava Plume,436,100.0,15,80.0,0,Fire,Generation Iv,Has a $effect_chance% chance to burn the target.,Special
+Leaf Storm,437,90.0,5,130.0,0,Grass,Generation Iv,Lowers the user's Special Attack by two stages after inflicting damage.,Special
+Power Whip,438,85.0,10,120.0,0,Grass,Generation Iv,Inflicts regular damage with no additional effect.,Physical
+Rock Wrecker,439,90.0,5,150.0,0,Rock,Generation Iv,User foregoes its next turn to recharge.,Physical
+Cross Poison,440,100.0,20,70.0,0,Poison,Generation Iv,Has an increased chance for a critical hit and a $effect_chance% chance to poison the target.,Physical
+Gunk Shot,441,80.0,5,120.0,0,Poison,Generation Iv,Has a $effect_chance% chance to poison the target.,Physical
+Iron Head,442,100.0,15,80.0,0,Steel,Generation Iv,Has a $effect_chance% chance to make the target flinch.,Physical
+Magnet Bomb,443,,20,60.0,0,Steel,Generation Iv,Never misses.,Physical
+Stone Edge,444,80.0,5,100.0,0,Rock,Generation Iv,Has an increased chance for a critical hit.,Physical
+Captivate,445,100.0,20,,0,Normal,Generation Iv,Lowers the target's Special Attack by two stages if it's the opposite gender.,Status
+Stealth Rock,446,,20,,0,Rock,Generation Iv,Causes damage when opposing Pokémon switch in.,Status
+Grass Knot,447,100.0,20,,0,Grass,Generation Iv,"Inflicts more damage to heavier targets, with a maximum of 120 power.",Special
+Chatter,448,100.0,20,65.0,0,Flying,Generation Iv,Has a higher chance to confuse the target when the recorded sound is louder.,Special
+Judgment,449,100.0,10,100.0,0,Normal,Generation Iv,"If the user is holding a appropriate plate or drive, the damage inflicted will match it.",Special
+Bug Bite,450,100.0,20,60.0,0,Bug,Generation Iv,"If target has a berry, inflicts double damage and uses the berry.",Physical
+Charge Beam,451,90.0,10,50.0,0,Electric,Generation Iv,Has a $effect_chance% chance to raise the user's Special Attack by one stage.,Special
+Wood Hammer,452,100.0,15,120.0,0,Grass,Generation Iv,User receives 1/3 the damage inflicted in recoil.,Physical
+Aqua Jet,453,100.0,20,40.0,1,Water,Generation Iv,Inflicts regular damage with no additional effect.,Physical
+Attack Order,454,100.0,15,90.0,0,Bug,Generation Iv,Has an increased chance for a critical hit.,Physical
+Defend Order,455,,10,,0,Bug,Generation Iv,Raises the user's Defense and Special Defense by one stage.,Status
+Heal Order,456,,10,,0,Bug,Generation Iv,Heals the user by half its max HP.,Status
+Head Smash,457,80.0,5,150.0,0,Rock,Generation Iv,User receives 1/2 the damage inflicted in recoil.,Physical
+Double Hit,458,90.0,10,35.0,0,Normal,Generation Iv,Hits twice in one turn.,Physical
+Roar Of Time,459,90.0,5,150.0,0,Dragon,Generation Iv,User foregoes its next turn to recharge.,Special
+Spacial Rend,460,95.0,5,100.0,0,Dragon,Generation Iv,Has an increased chance for a critical hit.,Special
+Lunar Dance,461,,10,,0,Psychic,Generation Iv,"User faints, and its replacement is fully healed.",Status
+Crush Grip,462,100.0,5,,0,Normal,Generation Iv,"Power increases against targets with more HP remaining, up to a maximum of 121 power.",Physical
+Magma Storm,463,75.0,5,100.0,0,Fire,Generation Iv,Prevents the target from fleeing and inflicts damage for 2-5 turns.,Special
+Dark Void,464,50.0,10,,0,Dark,Generation Iv,Puts the target to sleep.,Status
+Seed Flare,465,85.0,5,120.0,0,Grass,Generation Iv,Has a $effect_chance% chance to lower the target's Special Defense by two stages.,Special
+Ominous Wind,466,100.0,5,60.0,0,Ghost,Generation Iv,Has a $effect_chance% chance to raise all of the user's stats by one stage.,Special
+Shadow Force,467,100.0,5,120.0,0,Ghost,Generation Iv,"User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect.",Physical
+Hone Claws,468,,15,,0,Dark,Generation V,Raises the user's Attack and accuracy by one stage.,Status
+Wide Guard,469,,10,,3,Rock,Generation V,Prevents any multi-target moves from hitting friendly Pokémon this turn.,Status
+Guard Split,470,,10,,0,Psychic,Generation V,Averages Defense and Special Defense with the target.,Status
+Power Split,471,,10,,0,Psychic,Generation V,Averages Attack and Special Attack with the target.,Status
+Wonder Room,472,,10,,0,Psychic,Generation V,All Pokémon's Defense and Special Defense are swapped for 5 turns.,Status
+Psyshock,473,100.0,10,80.0,0,Psychic,Generation V,"Inflicts damage based on the target's Defense, not Special Defense.",Special
+Venoshock,474,100.0,10,65.0,0,Poison,Generation V,Inflicts double damage if the target is Poisoned.,Special
+Autotomize,475,,15,,0,Steel,Generation V,Raises the user's Speed by two stages and halves the user's weight.,Status
+Rage Powder,476,,20,,2,Bug,Generation V,Redirects the target's single-target effects to the user for this turn.,Status
+Telekinesis,477,,15,,0,Psychic,Generation V,Moves have 100% accuracy against the target for three turns.,Status
+Magic Room,478,,10,,0,Psychic,Generation V,Negates held items for five turns.,Status
+Smack Down,479,100.0,15,50.0,0,Rock,Generation V,Removes any immunity to Ground damage.,Physical
+Storm Throw,480,100.0,10,60.0,0,Fighting,Generation V,Always scores a critical hit.,Physical
+Flame Burst,481,100.0,15,70.0,0,Fire,Generation V,Deals splash damage to Pokémon next to the target.,Special
+Sludge Wave,482,100.0,10,95.0,0,Poison,Generation V,Has a $effect_chance% chance to poison the target.,Special
+Quiver Dance,483,,20,,0,Bug,Generation V,"Raises the user's Special Attack, Special Defense, and Speed by one stage each.",Status
+Heavy Slam,484,100.0,10,,0,Steel,Generation V,"Power is higher when the user weighs more than the target, up to a maximum of 120.",Physical
+Synchronoise,485,100.0,10,120.0,0,Psychic,Generation V,Hits any Pokémon that shares a type with the user.,Special
+Electro Ball,486,100.0,10,,0,Electric,Generation V,"Power is higher when the user has greater Speed than the target, up to a maximum of 150.",Special
+Soak,487,100.0,20,,0,Water,Generation V,Changes the target's type to Water.,Status
+Flame Charge,488,100.0,20,50.0,0,Fire,Generation V,Inflicts regular damage.  Raises the user's Speed by one stage.,Physical
+Coil,489,,20,,0,Poison,Generation V,"Raises the user's Attack, Defense, and accuracy by one stage each.",Status
+Low Sweep,490,100.0,20,65.0,0,Fighting,Generation V,Lowers the target's Speed by one stage.,Physical
+Acid Spray,491,100.0,20,40.0,0,Poison,Generation V,Lowers the target's Special Defense by two stages.,Special
+Foul Play,492,100.0,15,95.0,0,Dark,Generation V,Calculates damage with the target's attacking stat.,Physical
+Simple Beam,493,100.0,15,,0,Normal,Generation V,Changes the target's ability to Simple.,Status
+Entrainment,494,100.0,15,,0,Normal,Generation V,Copies the user's ability onto the target.,Status
+After You,495,,15,,0,Normal,Generation V,Makes the target act next this turn.,Status
+Round,496,100.0,15,60.0,0,Normal,Generation V,Has double power if it's used more than once per turn.,Special
+Echoed Voice,497,100.0,15,40.0,0,Normal,Generation V,"Power increases by 100% for each consecutive use by any friendly Pokémon, to a maximum of 200.",Special
+Chip Away,498,100.0,20,70.0,0,Normal,Generation V,Ignores the target's stat modifiers.,Physical
+Clear Smog,499,,15,50.0,0,Poison,Generation V,Removes all of the target's stat modifiers.,Special
+Stored Power,500,100.0,10,20.0,0,Psychic,Generation V,"Power is higher the more the user's stats have been raised, to a maximum of 31×.",Special
+Quick Guard,501,,15,,3,Fighting,Generation V,Prevents any priority moves from hitting friendly Pokémon this turn.,Status
+Ally Switch,502,,15,,2,Psychic,Generation V,User switches places with the friendly Pokémon opposite it.,Status
+Scald,503,100.0,15,80.0,0,Water,Generation V,Has a $effect_chance% chance to burn the target.,Special
+Shell Smash,504,,15,,0,Normal,Generation V,"Raises user's Attack, Special Attack, and Speed by two stages.  Lower user's Defense and Special Defense by one stage.",Status
+Heal Pulse,505,,10,,0,Psychic,Generation V,Heals the target for half its max HP.,Status
+Hex,506,100.0,10,65.0,0,Ghost,Generation V,Has double power if the target has a major status ailment.,Special
+Sky Drop,507,100.0,10,60.0,0,Flying,Generation V,"Carries the target high into the air, dodging all attacks against either, and drops it next turn.",Physical
+Shift Gear,508,,10,,0,Steel,Generation V,Raises the user's Attack by one stage and its Speed by two stages.,Status
+Circle Throw,509,90.0,10,60.0,-6,Fighting,Generation V,Ends wild battles.  Forces trainers to switch Pokémon.,Physical
+Incinerate,510,100.0,15,60.0,0,Fire,Generation V,Destroys the target's held berry.,Special
+Quash,511,100.0,15,,0,Dark,Generation V,Makes the target act last this turn.,Status
+Acrobatics,512,100.0,15,55.0,0,Flying,Generation V,Has double power if the user has no held item.,Physical
+Reflect Type,513,,15,,0,Normal,Generation V,User becomes the target's type.,Status
+Retaliate,514,100.0,5,70.0,0,Normal,Generation V,Has double power if a friendly Pokémon fainted last turn.,Physical
+Final Gambit,515,100.0,5,,0,Fighting,Generation V,Inflicts damage equal to the user's remaining HP.  User faints.,Special
+Bestow,516,,15,,0,Normal,Generation V,Gives the user's held item to the target.,Status
+Inferno,517,50.0,5,100.0,0,Fire,Generation V,Has a $effect_chance% chance to burn the target.,Special
+Water Pledge,518,100.0,10,80.0,0,Water,Generation V,"With Grass Pledge, halves opposing Pokémon's Speed for four turns.",Special
+Fire Pledge,519,100.0,10,80.0,0,Fire,Generation V,"With Water Pledge, doubles the effect chance of friendly Pokémon's moves for four turns.",Special
+Grass Pledge,520,100.0,10,80.0,0,Grass,Generation V,"With Fire Pledge, damages opposing Pokémon for 1/8 their max HP every turn for four turns.",Special
+Volt Switch,521,100.0,20,70.0,0,Electric,Generation V,User must switch out after attacking.,Special
+Struggle Bug,522,100.0,20,50.0,0,Bug,Generation V,Has a $effect_chance% chance to lower the target's Special Attack by one stage.,Special
+Bulldoze,523,100.0,20,60.0,0,Ground,Generation V,Has a $effect_chance% chance to lower the target's Speed by one stage.,Physical
+Frost Breath,524,90.0,10,60.0,0,Ice,Generation V,Always scores a critical hit.,Special
+Dragon Tail,525,90.0,10,60.0,-6,Dragon,Generation V,Ends wild battles.  Forces trainers to switch Pokémon.,Physical
+Work Up,526,,30,,0,Normal,Generation V,Raises the user's Attack and Special Attack by one stage each.,Status
+Electroweb,527,95.0,15,55.0,0,Electric,Generation V,Lowers the target's Speed by one stage.,Special
+Wild Charge,528,100.0,15,90.0,0,Electric,Generation V,User receives 1/4 the damage it inflicts in recoil.,Physical
+Drill Run,529,95.0,10,80.0,0,Ground,Generation V,Has an increased chance for a critical hit.,Physical
+Dual Chop,530,90.0,15,40.0,0,Dragon,Generation V,Hits twice in one turn.,Physical
+Heart Stamp,531,100.0,25,60.0,0,Psychic,Generation V,Has a $effect_chance% chance to make the target flinch.,Physical
+Horn Leech,532,100.0,10,75.0,0,Grass,Generation V,Drains half the damage inflicted to heal the user.,Physical
+Sacred Sword,533,100.0,15,90.0,0,Fighting,Generation V,Ignores the target's stat modifiers.,Physical
+Razor Shell,534,95.0,10,75.0,0,Water,Generation V,Has a $effect_chance% chance to lower the target's Defense by one stage.,Physical
+Heat Crash,535,100.0,10,,0,Fire,Generation V,"Power is higher when the user weighs more than the target, up to a maximum of 120.",Physical
+Leaf Tornado,536,90.0,10,65.0,0,Grass,Generation V,Has a $effect_chance% chance to lower the target's accuracy by one stage.,Special
+Steamroller,537,100.0,20,65.0,0,Bug,Generation V,Has a $effect_chance% chance to make the target flinch.,Physical
+Cotton Guard,538,,10,,0,Grass,Generation V,Raises the user's Defense by three stages.,Status
+Night Daze,539,95.0,10,85.0,0,Dark,Generation V,Has a $effect_chance% chance to lower the target's accuracy by one stage.,Special
+Psystrike,540,100.0,10,100.0,0,Psychic,Generation V,"Inflicts damage based on the target's Defense, not Special Defense.",Special
+Tail Slap,541,85.0,10,25.0,0,Normal,Generation V,Hits 2-5 times in one turn.,Physical
+Hurricane,542,70.0,10,110.0,0,Flying,Generation V,Has a $effect_chance% chance to confuse the target.,Special
+Head Charge,543,100.0,15,120.0,0,Normal,Generation V,User receives 1/4 the damage it inflicts in recoil.,Physical
+Gear Grind,544,85.0,15,50.0,0,Steel,Generation V,Hits twice in one turn.,Physical
+Searing Shot,545,100.0,5,100.0,0,Fire,Generation V,Has a $effect_chance% chance to burn the target.,Special
+Techno Blast,546,100.0,5,120.0,0,Normal,Generation V,"If the user is holding a appropriate plate or drive, the damage inflicted will match it.",Special
+Relic Song,547,100.0,10,75.0,0,Normal,Generation V,Has a $effect_chance% chance to put the target to sleep.,Special
+Secret Sword,548,100.0,10,85.0,0,Fighting,Generation V,"Inflicts damage based on the target's Defense, not Special Defense.",Special
+Glaciate,549,95.0,10,65.0,0,Ice,Generation V,Lowers the target's Speed by one stage.,Special
+Bolt Strike,550,85.0,5,130.0,0,Electric,Generation V,Has a $effect_chance% chance to paralyze the target.,Physical
+Blue Flare,551,85.0,5,130.0,0,Fire,Generation V,Has a $effect_chance% chance to burn the target.,Special
+Fiery Dance,552,100.0,10,80.0,0,Fire,Generation V,Has a $effect_chance% chance to raise the user's Special Attack by one stage.,Special
+Freeze Shock,553,90.0,5,140.0,0,Ice,Generation V,Requires a turn to charge before attacking.  Has a $effect_chance% chance to paralyze the target.,Physical
+Ice Burn,554,90.0,5,140.0,0,Ice,Generation V,Requires a turn to charge before attacking.  Has a $effect_chance% chance to burn the target.,Special
+Snarl,555,95.0,15,55.0,0,Dark,Generation V,Has a $effect_chance% chance to lower the target's Special Attack by one stage.,Special
+Icicle Crash,556,90.0,10,85.0,0,Ice,Generation V,Has a $effect_chance% chance to make the target flinch.,Physical
+V Create,557,95.0,5,180.0,0,Fire,Generation V,"Lowers the user's Defense, Special Defense, and Speed by one stage each.",Physical
+Fusion Flare,558,100.0,5,100.0,0,Fire,Generation V,"With Fusion Bolt, inflicts double damage.",Special
+Fusion Bolt,559,100.0,5,100.0,0,Electric,Generation V,"With Fusion Flare, inflicts double damage.",Physical
+Flying Press,560,95.0,10,100.0,0,Fighting,Generation Vi,Deals both fighting and flying-type damage.,Physical
+Mat Block,561,,10,,0,Fighting,Generation Vi,Protects all friendly Pokémon from damaging moves.  Only works on the first turn after the user is sent out.,Status
+Belch,562,90.0,10,120.0,0,Poison,Generation Vi,Can only be used after the user has eaten a berry.,Special
+Rototiller,563,,10,,0,Ground,Generation Vi,Raises the Attack and Special Attack of all grass Pokémon in battle.,Status
+Sticky Web,564,,20,,0,Bug,Generation Vi,"Covers the opposing field, lowering opponents' Speed by one stage upon switching in.",Status
+Fell Stinger,565,100.0,25,50.0,0,Bug,Generation Vi,Raises the user's Attack by two stages if it KOs the target.,Physical
+Phantom Force,566,100.0,10,90.0,0,Ghost,Generation Vi,"User vanishes, dodging all attacks, and hits next turn.  Hits through Protect and Detect.",Physical
+Trick Or Treat,567,100.0,20,,0,Ghost,Generation Vi,Adds ghost to the target's types.,Status
+Noble Roar,568,100.0,30,,0,Normal,Generation Vi,Lowers the target's Attack and Special Attack by one stage.,Status
+Ion Deluge,569,,25,,1,Electric,Generation Vi,Changes all normal moves to electric moves for the rest of the turn.,Status
+Parabolic Charge,570,100.0,20,65.0,0,Electric,Generation Vi,Heals the user for half the total damage dealt to all targets.,Special
+Forests Curse,571,100.0,20,,0,Grass,Generation Vi,Adds grass to the target's types.,Status
+Petal Blizzard,572,100.0,15,90.0,0,Grass,Generation Vi,Inflicts regular damage.,Physical
+Freeze Dry,573,100.0,20,70.0,0,Ice,Generation Vi,Super-effective against water.,Special
+Disarming Voice,574,,15,40.0,0,Fairy,Generation Vi,Never misses.,Special
+Parting Shot,575,100.0,20,,0,Dark,Generation Vi,Lowers all targets' Attack and Special Attack by one stage.  Makes the user switch out.,Status
+Topsy Turvy,576,,20,,0,Dark,Generation Vi,Inverts the target's stat modifiers.,Status
+Draining Kiss,577,100.0,10,50.0,0,Fairy,Generation Vi,Drains 75% of the damage inflicted to heal the user.,Special
+Crafty Shield,578,,10,,3,Fairy,Generation Vi,Protects all friendly Pokémon from non-damaging moves.,Status
+Flower Shield,579,,10,,0,Fairy,Generation Vi,Raises the Defense of all grass Pokémon in battle.,Status
+Grassy Terrain,580,,10,,0,Grass,Generation Vi,"For five turns, heals all Pokémon on the ground for 1/16 max HP each turn and strengthens their grass moves to 1.5× their power.",Status
+Misty Terrain,581,,10,,0,Fairy,Generation Vi,"For five turns, protects all Pokémon on the ground from major status ailments and confusion, and halves the power of incoming dragon moves.",Status
+Electrify,582,,20,,0,Electric,Generation Vi,Changes the target's move's type to electric if it hasn't moved yet this turn.,Status
+Play Rough,583,90.0,10,90.0,0,Fairy,Generation Vi,Has a $effect_chance% chance to lower the target's Attack by one stage.,Physical
+Fairy Wind,584,100.0,30,40.0,0,Fairy,Generation Vi,Inflicts regular damage with no additional effect.,Special
+Moonblast,585,100.0,15,95.0,0,Fairy,Generation Vi,Has a $effect_chance% chance to lower the target's Special Attack by one stage.,Special
+Boomburst,586,100.0,10,140.0,0,Normal,Generation Vi,Inflicts regular damage.,Special
+Fairy Lock,587,,10,,0,Fairy,Generation Vi,Prevents all Pokémon from fleeing or switching out during the next turn.,Status
+Kings Shield,588,,10,,4,Steel,Generation Vi,Blocks damaging attacks and lowers attacking Pokémon's Attack by two stages on contact.  Switches Aegislash to Shield Forme.,Status
+Play Nice,589,,20,,0,Normal,Generation Vi,Lowers the target's Attack by one stage.,Status
+Confide,590,,20,,0,Normal,Generation Vi,Lowers the target's Special Attack by one stage.,Status
+Diamond Storm,591,95.0,5,100.0,0,Rock,Generation Vi,Has a $effect_chance% chance to raise the user's Defense by two stages for each target hit.,Physical
+Steam Eruption,592,95.0,5,110.0,0,Water,Generation Vi,Has a $effect_chance% chance to burn the target.,Special
+Hyperspace Hole,593,,5,80.0,0,Psychic,Generation Vi,Ignores and destroys protection effects.,Special
+Water Shuriken,594,100.0,20,15.0,1,Water,Generation Vi,Hits 2–5 times.,Special
+Mystical Fire,595,100.0,10,75.0,0,Fire,Generation Vi,Has a $effect_chance% chance to lower the target's Special Attack by one stage.,Special
+Spiky Shield,596,,10,,4,Grass,Generation Vi,Blocks damaging attacks and damages attacking Pokémon for 1/8 their max HP.,Status
+Aromatic Mist,597,,20,,0,Fairy,Generation Vi,Raises a selected ally's Special Defense by one stage.,Status
+Eerie Impulse,598,100.0,15,,0,Electric,Generation Vi,Lowers the target's Special Attack by two stages.,Status
+Venom Drench,599,100.0,20,,0,Poison,Generation Vi,"Lowers the target's Attack, Special Attack, and Speed by one stage if it is poisoned.",Status
+Powder,600,100.0,20,,1,Bug,Generation Vi,"Explodes if the target uses a fire move this turn, damaging it for 1/4 its max HP and preventing the move.",Status
+Geomancy,601,,10,,0,Fairy,Generation Vi,"Takes one turn to charge, then raises the user's Special Attack, Special Defense, and Speed by two stages.",Status
+Magnetic Flux,602,,20,,0,Electric,Generation Vi,Raises the Defense and Special Defense of all friendly Pokémon with plus or minus by one stage.,Status
+Happy Hour,603,,30,,0,Normal,Generation Vi,Doubles prize money.,Status
+Electric Terrain,604,,10,,0,Electric,Generation Vi,"For five turns, prevents all Pokémon on the ground from sleeping and strengthens their electric moves to 1.5× their power.",Status
+Dazzling Gleam,605,100.0,10,80.0,0,Fairy,Generation Vi,Inflicts regular damage with no additional effect.,Special
+Celebrate,606,,40,,0,Normal,Generation Vi,Does nothing.,Status
+Hold Hands,607,,40,,0,Normal,Generation Vi,Does nothing.,Status
+Baby Doll Eyes,608,100.0,30,,1,Fairy,Generation Vi,Lowers the target's Attack by one stage.,Status
+Nuzzle,609,100.0,20,20.0,0,Electric,Generation Vi,Has a $effect_chance% chance to paralyze the target.,Physical
+Hold Back,610,100.0,40,40.0,0,Normal,Generation Vi,Cannot lower the target's HP below 1.,Physical
+Infestation,611,100.0,20,20.0,0,Bug,Generation Vi,Prevents the target from fleeing and inflicts damage for 2-5 turns.,Special
+Power Up Punch,612,100.0,20,40.0,0,Fighting,Generation Vi,Raises the user's Attack by one stage after inflicting damage.,Physical
+Oblivion Wing,613,100.0,10,80.0,0,Flying,Generation Vi,Drains 75% of the damage inflicted to heal the user.,Special
+Thousand Arrows,614,100.0,10,90.0,0,Ground,Generation Vi,"Grounds the target, and hits even Flying-type or levitating Pokémon.",Physical
+Thousand Waves,615,100.0,10,90.0,0,Ground,Generation Vi,Prevents the target from leaving battle.,Physical
+Lands Wrath,616,100.0,10,90.0,0,Ground,Generation Vi,Inflicts regular damage with no additional effect.,Physical
+Light Of Ruin,617,90.0,5,140.0,0,Fairy,Generation Vi,User receives 1/2 the damage inflicted in recoil.,Special
+Origin Pulse,618,85.0,10,110.0,0,Water,Generation Vi,Inflicts regular damage with no additional effect.,Special
+Precipice Blades,619,85.0,10,120.0,0,Ground,Generation Vi,Inflicts regular damage with no additional effect.,Physical
+Dragon Ascent,620,100.0,5,120.0,0,Flying,Generation Vi,Lowers the user's Defense and Special Defense by one stage after inflicting damage.,Physical
+Hyperspace Fury,621,,5,100.0,0,Dark,Generation Vi,Ignores and destroys protection effects.,Physical
+Breakneck Blitz  Physical,622,,1,,0,Normal,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Breakneck Blitz  Special,623,,1,,0,Normal,Generation Vii,Inflicts regular damage with no additional effect.,Special
+All Out Pummeling  Physical,624,,1,,0,Fighting,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+All Out Pummeling  Special,625,,1,,0,Fighting,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Supersonic Skystrike  Physical,626,,1,,0,Flying,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Supersonic Skystrike  Special,627,,1,,0,Flying,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Acid Downpour  Physical,628,,1,,0,Poison,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Acid Downpour  Special,629,,1,,0,Poison,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Tectonic Rage  Physical,630,,1,,0,Ground,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Tectonic Rage  Special,631,,1,,0,Ground,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Continental Crush  Physical,632,,1,,0,Rock,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Continental Crush  Special,633,,1,,0,Rock,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Savage Spin Out  Physical,634,,1,,0,Bug,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Savage Spin Out  Special,635,,1,,0,Bug,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Never Ending Nightmare  Physical,636,,1,,0,Ghost,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Never Ending Nightmare  Special,637,,1,,0,Ghost,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Corkscrew Crash  Physical,638,,1,,0,Steel,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Corkscrew Crash  Special,639,,1,,0,Steel,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Inferno Overdrive  Physical,640,,1,,0,Fire,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Inferno Overdrive  Special,641,,1,,0,Fire,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Hydro Vortex  Physical,642,,1,,0,Water,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Hydro Vortex  Special,643,,1,,0,Water,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Bloom Doom  Physical,644,,1,,0,Grass,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Bloom Doom  Special,645,,1,,0,Grass,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Gigavolt Havoc  Physical,646,,1,,0,Electric,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Gigavolt Havoc  Special,647,,1,,0,Electric,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Shattered Psyche  Physical,648,,1,,0,Psychic,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Shattered Psyche  Special,649,,1,,0,Psychic,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Subzero Slammer  Physical,650,,1,,0,Ice,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Subzero Slammer  Special,651,,1,,0,Ice,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Devastating Drake  Physical,652,,1,,0,Dragon,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Devastating Drake  Special,653,,1,,0,Dragon,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Black Hole Eclipse  Physical,654,,1,,0,Dark,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Black Hole Eclipse  Special,655,,1,,0,Dark,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Twinkle Tackle  Physical,656,,1,,0,Fairy,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Twinkle Tackle  Special,657,,1,,0,Fairy,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Catastropika,658,,1,210.0,0,Electric,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Shore Up,659,,10,,0,Ground,Generation Vii,"Heals the user for ½ its max HP, or ⅔ during a sandstorm.",Status
+First Impression,660,100.0,10,90.0,2,Bug,Generation Vii,Can only be used as the first move after the user enters battle.,Physical
+Baneful Bunker,661,,10,,4,Poison,Generation Vii,Grants the user protection for the rest of the turn and poisons any Pokémon that tries to use a contact move on it.,Status
+Spirit Shackle,662,100.0,10,80.0,0,Ghost,Generation Vii,Traps the target.,Physical
+Darkest Lariat,663,100.0,10,85.0,0,Dark,Generation Vii,Ignores the target's stat modifiers.,Physical
+Sparkling Aria,664,100.0,10,90.0,0,Water,Generation Vii,Cures the target of burns.,Special
+Ice Hammer,665,90.0,10,100.0,0,Ice,Generation Vii,Lowers user's Speed by one stage.,Physical
+Floral Healing,666,,10,,0,Fairy,Generation Vii,"Heals the target for ½ its max HP, or ⅔ on Grassy Terrain.",Status
+High Horsepower,667,95.0,10,95.0,0,Ground,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Strength Sap,668,100.0,10,,0,Grass,Generation Vii,Heals the user by the target's current Attack stat and lowers the target's Attack by one stage.,Status
+Solar Blade,669,100.0,10,125.0,0,Grass,Generation Vii,Requires a turn to charge before attacking.,Physical
+Leafage,670,100.0,40,40.0,0,Grass,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Spotlight,671,,15,,3,Normal,Generation Vii,Forces the target's opponents to aim at the target for the rest of the turn.,Status
+Toxic Thread,672,100.0,20,,0,Poison,Generation Vii,Poisons the target and lowers its Speed by one stage.,Status
+Laser Focus,673,,30,,0,Normal,Generation Vii,Guarantees a critical hit with the user's next move.,Status
+Gear Up,674,,20,,0,Steel,Generation Vii,Raises the Attack and Special Attack of all friendly Pokémon with plus or minus by one stage.,Status
+Throat Chop,675,100.0,15,80.0,0,Dark,Generation Vii,Prevents the target from using sound-based moves for two turns.,Physical
+Pollen Puff,676,100.0,15,90.0,0,Bug,Generation Vii,"Damages opponents, but heals allies for 50% of their max HP.",Special
+Anchor Shot,677,100.0,20,80.0,0,Steel,Generation Vii,Traps the target.,Physical
+Psychic Terrain,678,,10,,0,Psychic,Generation Vii,Protects Pokémon on the ground from priority moves and increases the power of their  Psychic moves by 50%.,Status
+Lunge,679,100.0,15,80.0,0,Bug,Generation Vii,Lowers the target's Attack by one stage after inflicting damage.,Physical
+Fire Lash,680,100.0,15,80.0,0,Fire,Generation Vii,Lowers the target's Defense by one stage after inflicting damage.,Physical
+Power Trip,681,100.0,10,20.0,0,Dark,Generation Vii,"Power is higher the more the user's stats have been raised, to a maximum of 31×.",Physical
+Burn Up,682,100.0,5,130.0,0,Fire,Generation Vii,Removes the user's fire type after inflicting damage.,Special
+Speed Swap,683,,10,,0,Psychic,Generation Vii,Exchanges the user's Speed with the target's.,Status
+Smart Strike,684,,10,70.0,0,Steel,Generation Vii,Never misses.,Physical
+Purify,685,,20,,0,Poison,Generation Vii,Cures the target of a major status ailment and heals the user for 50% of its max HP.,Status
+Revelation Dance,686,100.0,15,90.0,0,Normal,Generation Vii,Has the same type as the user.,Special
+Core Enforcer,687,100.0,10,100.0,0,Dragon,Generation Vii,Nullifies the target's ability if it moves earlier.,Special
+Trop Kick,688,100.0,15,70.0,0,Grass,Generation Vii,Lowers the target's Attack by one stage after inflicting damage.,Physical
+Instruct,689,,15,,0,Psychic,Generation Vii,Forces the target to repeat its last used move.,Status
+Beak Blast,690,100.0,15,100.0,-3,Flying,Generation Vii,Inflicts a burn on any Pokémon that makes contact before the attack.,Physical
+Clanging Scales,691,100.0,5,110.0,0,Dragon,Generation Vii,Lowers the user's Defense by one stage after inflicting damage.,Special
+Dragon Hammer,692,100.0,15,90.0,0,Dragon,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Brutal Swing,693,100.0,20,60.0,0,Dark,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Aurora Veil,694,,20,,0,Ice,Generation Vii,"Reduces damage five turns, but must be used during hail.",Status
+Sinister Arrow Raid,695,,1,180.0,0,Ghost,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Malicious Moonsault,696,,1,180.0,0,Dark,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Oceanic Operetta,697,,1,195.0,0,Water,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Guardian Of Alola,698,,1,,0,Fairy,Generation Vii,Damages the target for 75% of its remaining HP.,Special
+Soul Stealing 7 Star Strike,699,,1,195.0,0,Ghost,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Stoked Sparksurfer,700,,1,175.0,0,Electric,Generation Vii,Has a $effect_chance% chance to paralyze the target.,Special
+Pulverizing Pancake,701,,1,210.0,0,Normal,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Extreme Evoboost,702,,1,,0,Normal,Generation Vii,Raises all of the user's stats by two stages.,Status
+Genesis Supernova,703,,1,185.0,0,Psychic,Generation Vii,Changes the terrain to Psychic Terrain after inflicting damage.,Special
+Shell Trap,704,100.0,5,150.0,-3,Fire,Generation Vii,Only inflicts damage if the user was hit by a physical move this turn.,Special
+Fleur Cannon,705,90.0,5,130.0,0,Fairy,Generation Vii,Lowers the user's Special Attack by two stages after inflicting damage.,Special
+Psychic Fangs,706,100.0,10,85.0,0,Psychic,Generation Vii,Destroys Reflect and Light Screen.,Physical
+Stomping Tantrum,707,100.0,10,75.0,0,Ground,Generation Vii,Has double power if the user's last move failed.,Physical
+Shadow Bone,708,100.0,10,85.0,0,Ghost,Generation Vii,Has a $effect_chance% chance to lower the target's Defense by one stage.,Physical
+Accelerock,709,100.0,20,40.0,1,Rock,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Liquidation,710,100.0,10,85.0,0,Water,Generation Vii,Has a $effect_chance% chance to lower the target's Defense by one stage.,Physical
+Prismatic Laser,711,100.0,10,160.0,0,Psychic,Generation Vii,User foregoes its next turn to recharge.,Special
+Spectral Thief,712,100.0,10,90.0,0,Ghost,Generation Vii,"Steals the target's stat increases, then inflicts damage.",Physical
+Sunsteel Strike,713,100.0,5,100.0,0,Steel,Generation Vii,Cannot be disrupted by abilities.,Physical
+Moongeist Beam,714,100.0,5,100.0,0,Ghost,Generation Vii,Cannot be disrupted by abilities.,Special
+Tearful Look,715,,20,,0,Normal,Generation Vii,Lowers the target's Attack and Special Attack by one stage.,Status
+Zing Zap,716,100.0,10,80.0,0,Electric,Generation Vii,Has a $effect_chance% chance to make the target flinch.,Physical
+Natures Madness,717,90.0,10,,0,Fairy,Generation Vii,Inflicts damage equal to half the target's HP.,Special
+Multi Attack,718,100.0,10,120.0,0,Normal,Generation Vii,"If the user is holding a appropriate plate or drive, the damage inflicted will match it.",Physical
+10 000 000 Volt Thunderbolt,719,,1,195.0,0,Electric,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Mind Blown,720,100.0,5,150.0,0,Fire,Generation Vii,"Inflicts damage, and the user takes damage equal to half of its max HP, rounded up.",Special
+Plasma Fists,721,100.0,15,100.0,0,Electric,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Photon Geyser,722,100.0,5,100.0,0,Psychic,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Light That Burns The Sky,723,,1,200.0,0,Psychic,Generation Vii,"Inflicts damage using either Attack or Special Attack stat, whichever is higher.",Special
+Searing Sunraze Smash,724,,1,200.0,0,Steel,Generation Vii,Cannot be disrupted by abilities.,Physical
+Menacing Moonraze Maelstrom,725,,1,200.0,0,Ghost,Generation Vii,Cannot be disrupted by abilities.,Special
+Lets Snuggle Forever,726,,1,190.0,0,Fairy,Generation Vii,"After inflicting damage, causes all Normal-type moves to become Electric-type for the remainder of the turn.",Physical
+Splintered Stormshards,727,,1,190.0,0,Rock,Generation Vii,Inflicts damage and removes any terrain present on the battlefield.,Physical
+Clangorous Soulblaze,728,,1,185.0,0,Dragon,Generation Vii,"Inflicts damage to all opposing Pokémon and increases the user's Attack, Defense, Special Attack, Special Defense, and Speed by one stage each.",Special
+Zippy Zap,729,100.0,10,80.0,2,Electric,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Splishy Splash,730,100.0,15,90.0,0,Water,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Floaty Fall,731,95.0,15,90.0,0,Flying,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Pika Papow,732,,20,,0,Electric,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Bouncy Bubble,733,100.0,20,60.0,0,Water,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Buzzy Buzz,734,100.0,20,60.0,0,Electric,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Sizzly Slide,735,100.0,20,60.0,0,Fire,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Glitzy Glow,736,95.0,15,80.0,0,Psychic,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Baddy Bad,737,95.0,15,80.0,0,Dark,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Sappy Seed,738,90.0,10,100.0,0,Grass,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Freezy Frost,739,90.0,10,100.0,0,Ice,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Sparkly Swirl,740,85.0,5,120.0,0,Fairy,Generation Vii,Inflicts regular damage with no additional effect.,Special
+Veevee Volley,741,,20,,0,Normal,Generation Vii,Inflicts regular damage with no additional effect.,Physical
+Double Iron Bash,742,100.0,5,60.0,0,Steel,Generation Vii,Hits twice in one turn.,Physical
+Max Guard,743,,10,,4,Normal,Generation Viii,Prevents any moves from hitting the user this turn.,Status
+Dynamax Cannon,744,100.0,5,100.0,0,Dragon,Generation Viii,Sets Light Screen on the user's side of the field after inflicting damage.,Special
+Snipe Shot,745,100.0,15,80.0,0,Water,Generation Viii,Sets Reflect on the user's side of the field after inflicting damage.,Special
+Jaw Lock,746,100.0,10,80.0,0,Dark,Generation Viii,Seeds the target after inflicting damage.,Physical
+Stuff Cheeks,747,,10,,0,Normal,Generation Viii,Cures the entire party of major status effects after inflicting damage.,Status
+No Retreat,748,,5,,0,Fighting,Generation Viii,"Hits twice in one turn, with a $effect_chance% chance to make the target flinch.",Status
+Max Flare,757,,10,100.0,0,Fire,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Flutterby,758,,10,10.0,0,Bug,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Lightning,759,,10,10.0,0,Electric,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Strike,760,,10,10.0,0,Normal,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Knuckle,761,,10,10.0,0,Fighting,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Phantasm,762,,10,10.0,0,Ghost,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Hailstorm,763,,10,10.0,0,Ice,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Ooze,764,,10,10.0,0,Poison,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Geyser,765,,10,10.0,0,Water,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Airstream,766,,10,10.0,0,Flying,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Starfall,767,,10,10.0,0,Fairy,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Wyrmwind,768,,10,10.0,0,Dragon,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Mindstorm,769,,10,10.0,0,Psychic,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Rockfall,770,,10,10.0,0,Rock,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Quake,771,,10,10.0,0,Ground,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Darkness,772,,10,10.0,0,Dark,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Overgrowth,773,,10,10.0,0,Grass,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Max Steelspike,774,,10,10.0,0,Steel,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Drum Beating,778,100.0,10,80.0,0,Grass,Generation Viii,Has a $effect_chance% chance to lower the target's Speed by one stage.,Physical
+Snap Trap,779,100.0,15,35.0,0,Grass,Generation Viii,Prevents the target from fleeing and inflicts damage for 2-5 turns.,Physical
+Pyro Ball,780,90.0,5,120.0,0,Fire,Generation Viii,Has a $effect_chance% chance to burn the target.,Physical
+Breaking Swipe,784,100.0,15,60.0,0,Dragon,Generation Viii,Lowers the target's Attack by one stage after inflicting damage.,Physical
+Branch Poke,785,100.0,40,40.0,0,Grass,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Grav Apple,788,100.0,10,80.0,0,Grass,Generation Viii,Lowers the target's Defense by one stage after inflicting damage.,Physical
+Spirit Break,789,100.0,15,75.0,0,Fairy,Generation Viii,Has a $effect_chance% chance to lower the target's Special Attack by one stage.,Physical
+Strange Steam,790,95.0,10,90.0,0,Fairy,Generation Viii,Has a $effect_chance% chance to confuse the target.,Special
+False Surrender,793,,10,80.0,0,Dark,Generation Viii,Never misses.,Physical
+Meteor Assault,794,100.0,5,150.0,0,Fighting,Generation Viii,User foregoes its next turn to recharge.,Physical
+Eternabeam,795,90.0,5,160.0,0,Dragon,Generation Viii,User foregoes its next turn to recharge.,Special
+Steel Beam,796,95.0,5,140.0,0,Steel,Generation Viii,"Inflicts damage, and the user takes damage equal to half of its max HP, rounded up.",Special
+Expanding Force,797,100.0,10,80.0,0,Psychic,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Steel Roller,798,100.0,5,130.0,0,Steel,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Scale Shot,799,90.0,20,25.0,0,Dragon,Generation Viii,Boosts the user's Speed and lowers their Defense by one stage after inflicting damage two to five times in a row.,Physical
+Meteor Beam,800,90.0,10,120.0,0,Rock,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Shell Side Arm,801,100.0,10,90.0,0,Poison,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Misty Explosion,802,100.0,5,100.0,0,Fairy,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Grassy Glide,803,100.0,20,70.0,0,Grass,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Rising Voltage,804,100.0,20,70.0,0,Electric,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Terrain Pulse,805,100.0,10,50.0,0,Normal,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Skitter Smack,806,90.0,10,70.0,0,Bug,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Burning Jealousy,807,100.0,5,70.0,0,Fire,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Lash Out,808,100.0,5,75.0,0,Dark,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Poltergeist,809,90.0,5,110.0,0,Ghost,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Corrosive Gas,810,100.0,40,,0,Poison,Generation Viii,Inflicts regular damage with no additional effect.,Status
+Coaching,811,,10,,0,Fighting,Generation Viii,Inflicts regular damage with no additional effect.,Status
+Flip Turn,812,100.0,20,60.0,0,Water,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Triple Axel,813,90.0,10,20.0,0,Ice,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Dual Wingbeat,814,90.0,10,40.0,0,Flying,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Scorching Sands,815,100.0,10,70.0,0,Ground,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Jungle Healing,816,,10,,0,Grass,Generation Viii,Inflicts regular damage with no additional effect.,Status
+Wicked Blow,817,100.0,5,80.0,0,Dark,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Surging Strikes,818,100.0,5,25.0,0,Water,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Thunder Cage,819,90.0,15,80.0,0,Electric,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Dragon Energy,820,100.0,5,150.0,0,Dragon,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Freezing Glare,821,100.0,10,90.0,0,Psychic,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Fiery Wrath,822,100.0,10,90.0,0,Dark,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Thunderous Kick,823,100.0,10,90.0,0,Fighting,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Glacial Lance,824,100.0,5,130.0,0,Ice,Generation Viii,Inflicts regular damage with no additional effect.,Physical
+Astral Barrage,825,100.0,5,120.0,0,Ghost,Generation Viii,Inflicts regular damage with no additional effect.,Special
+Eerie Spell,826,100.0,5,80.0,0,Psychic,Generation Viii,Inflicts regular damage with no additional effect.,Special
